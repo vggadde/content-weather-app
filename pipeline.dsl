@@ -1,9 +1,9 @@
 import java.util.Date
 def date = new Date()
-def viewName = 'Sample NodeJS App'
+def viewName = 'content-weather-app'
 
 pipelineJob("$viewName") {
-  description('Sample NodeJS App')
+  description('content-weather-app')
     parameters {
          string {
              name 'SOURCE_BRANCH'
