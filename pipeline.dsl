@@ -3,7 +3,7 @@ def date = new Date()
 def viewName = 'Sample NodeJS App'
 
 pipelineJob("$viewName") {
-  description('jenkins-docker-test')
+  description('Sample NodeJS App')
     parameters {
          string {
              name 'SOURCE_BRANCH'
